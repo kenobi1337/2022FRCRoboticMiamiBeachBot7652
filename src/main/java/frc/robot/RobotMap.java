@@ -23,15 +23,15 @@ import frc.robot.subsystems.DriveTrainSubsystem;
  */
 public class RobotMap {
     // constanst properties
-    private final DefaultDrive m_defaultDrive;
-    private final DriveSubsystem m_drive;
-    private final GyroTurn m_gyroTurn;
-    private static RobotContainer m_robotContainer;
-    private final Empty m_empty;
-    private final ReverseDrive m_reverseDrive;
-    private final ShooterSubsystem m_shoot;
-    private final Shoot m_shootCommand;
-    private final Convey m_conveyCommand;
-    private final IntakeSubsystem m_intake;
-    private final Intake m_intakeCommand;
+//    private final DefaultDrive m_defaultDrive;
+    private final DriveTrainSubsystem m_drive = new DriveTrainSubsystem();
+//    private final GyroTurn m_gyroTurn;
+//    private static RobotContainer m_robotContainer;
+//    private final Empty m_empty;
+//    private final ReverseDrive m_reverseDrive;
+//    private final ShooterSubsystem m_shoot;
+//    private final Shoot m_shootCommand;
+//    private final Convey m_conveyCommand;
+//    private final IntakeSubsystem m_intake;
+//    private final Intake m_intakeCommand;
 }
